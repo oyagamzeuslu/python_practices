@@ -12,7 +12,7 @@ while add_confirm == "y":
 
     for s in students:
         if s == user_input:
-            print(user_input, " is already a student")
+            print(user_input, "is already a student")
             break
         
     else:
