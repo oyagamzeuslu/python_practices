@@ -5,8 +5,8 @@ user_input = ""
 while add_confirm == "y":
     add_confirm = input("Do you want to add a student? Enter y/n ")
     if add_confirm == "n":
+        continue #this is the same as break after print. If condition is true, it takes flow back to the beginning of iteration
         print("add process completed")
-        break
     
     user_input = input("enter student name: ")
 
@@ -19,9 +19,3 @@ while add_confirm == "y":
         students.append(user_input)
         print(user_input, "is now added")
         print(students)
-
-
-
-
-
-
